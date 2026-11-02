@@ -1,10 +1,15 @@
 {
   "Settings": {
-    "logF_BusinessProcessName": "Framework"
+    	"logF_BusinessProcessName": "Framework",
+		"OrchestratorFolderName": "CompaniesHouse", 
+		"OrchestratorBucketName":"CompaniesHouse_MaxLavrov_Input",
+		"InputFileName": "\\CompaniesHouseInput.csv",
+	  	"OrchestratorQueueName": "CompaniesHouse_MaxLavrov",
+	  	"ExcelSheetName":"Sheet1"
   },
   "Constants": {
-    "MaxRetryNumber": 0,
-    "MaxConsecutiveSystemExceptions": 0,
+    "MaxRetryNumber": 2,
+    "MaxConsecutiveSystemExceptions": 1,
     "ExScreenshotsFolderPath": "Exceptions_Screenshots",
     "LogMessage_GetTransactionData": "Processing Transaction Number: ",
     "LogMessage_GetTransactionDataError": "Error getting transaction data for Transaction Number: ",
