@@ -1,0 +1,6 @@
+{
+  "Name": "CompaniesHouse_Dispatcher_MaxLavrov",
+  "ProjectType": "Process",
+  "Description": "Reads csv file from storage bucket and outputs queue items",
+  "MainFile": "Main.xaml"
+}
